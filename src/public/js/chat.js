@@ -1,5 +1,6 @@
 let chatBox = document.getElementById("chatBox");
 
+
 Swal.fire({
   title: "Authentication",
   input: "text",
@@ -56,3 +57,5 @@ Swal.fire({
     }).showToast();
   });
 });
+
+

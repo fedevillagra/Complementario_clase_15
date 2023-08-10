@@ -14,7 +14,7 @@ app.use(express.json());
 
 try {
   await mongoose.connect(
-    "mongodb+srv://coder:coder@codercluster.s2t69rs.mongodb.net/ecommerce"
+    "mongodb+srv://fedevillagra8:0323@codercluster.jklw4uc.mongodb.net/ecommerce"
   );
   // Iniciar el servidor HTTP
   const serverHttp = app.listen(PORT, () =>
@@ -59,6 +59,7 @@ try {
       io.emit("logs", messages);
     });
   });
+  
 } catch (error) {
   console.log(`Cannot connect to dataBase: ${error}`);
   process.exit();
